@@ -1,0 +1,43 @@
+.hd{
+  background-color: rgb(9, 15, 17) ;
+  text-align:center;
+  color:white;
+  margin: 10px;
+}
+.k
+{
+  border: solid black;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.ii{
+  text-align: center;
+}
+
+
+.gr1{
+  display: grid;
+  grid-template-columns: 5fr 5fr; 
+}
+
+.im1{
+  width: 660px;
+  height: 450px;
+}
+
+.lu{
+  display: grid;
+  grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr; 
+  margin:40px; 
+  list-style: none;
+}
+.il{
+    margin-bottom: 15px;
+    font-size: 1rem;
+    min-height: 30px;
+    color: #4A4A4A;
+  }
+
+

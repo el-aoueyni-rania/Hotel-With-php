@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <div class="account-light-wrapper">
+              <div class="mod">
+                <div class="account-light mod-light toggleActive">
+                  <label class="toggleLabel hide-for-large-up"><a href="/espace-client/"><span class="small-hide-text">Mon</span> compte</a></label>
+                  <label class="toggleLabel show-for-large-up"><span class="small-hide-text">Mon</span> compte</label>
+                  <div class="account-light-inner toggleActive">
+                    <form action="/templeet.php/espace-client/" method="post">
+                      <fieldset>
+                        <input name="extraProcess" value="login" type="hidden">
+                        <input name="redirectUrl" value="/espace-client/" type="hidden">
+                        <input name="stayConnected" value="1" type="hidden">
+                        <input name="shop" value="1" type="hidden">
+                        <input name="acceptEmails" value="1" type="hidden">
+                        <p>
+                          <label class="label-main">Déjà inscrit ? Connectez-vous </label>
+                          <input name="login" aria-required="true" placeholder="Votre e-mail" type="text">
+                          <input name="password" aria-required="true" placeholder="Mot de passe" type="password">
+                          <input name="submit" value="Se connecter" type="submit"><a href="/mot-de-passe-perdu.html" class="account-light-last-pass">Mot de passe perdu ?</a>
+                        </p>
+                        <p>
+                          <span class="label-2nd">1ère connexion ? </span> <a class="button" href="/espace-client/">S’inscrire</a>
+                        </p>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+</body>
+</html>

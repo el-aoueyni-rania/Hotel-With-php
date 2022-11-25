@@ -1,0 +1,45 @@
+.bod{
+    background-image: url("https://cf.bstatic.com/images/hotel/max1280x900/804/80456917.jpg");
+}
+.bd{
+    background-image: url("https://maximumwallhd.com/wp-content/uploads/2016/11/fond-ecran-wallpaper-image-fonds-ecran-abstrait-gris-18.jpg");
+}
+
+  .ft{
+    font-style: italic;
+    color: black;
+  }
+  .transbox {
+    background-color: #ffffff;
+    opacity: 0.8;
+    font-weight: bold;
+    color: #000000;
+  }
+.hh {
+    padding: 70px 0;
+    text-align: center;
+  }
+.mr{
+  margin: 50px;
+}
+.form-signin {
+  max-width: 500px;
+  padding: 19px 29px 29px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+.ll{
+  color:blue;
+}
+
+
+
+
+
