@@ -22,48 +22,55 @@ $ligne = $reponse->fetch(PDO::FETCH_ASSOC);
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/style2.css">
-    <style>
+ <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    
+
+    .hero {
+      background-image: url('https://cdn2.tqsan.com/lacigale/wp-content/uploads/2016/07/slide-accueil.jpg.webp'); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      color: white;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      font-weight: 300;
+    }
+  </style>
 
 
-
-</style>
 </head>
 <body class="bd">
 <?php include 'connexion.php' ?> 
 <?php include_once 'templates/navbar2.php' ?>
-<br><br><br><br>
-<section style="  display: grid; grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;">
-    <div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\1.jpg"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 2% ;"> <a style=" color : black ; font-size : 25px ; text-decoration: underline;"></a></h3>
+
+<div class="hero">
+    <div class="hero-content">
+      <h1>Une expérience exceptionnelle à vivre</h1>
     </div>
-    <div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\2.png"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 26% ;"> <a style=" color : black ; font-size : 25px ; text-decoration: underline;" ></a></h3>
-    </div>
-    <div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\3.png"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 51% ;"> <a style=" color : black ; font-size : 23px ; text-decoration: underline;" ></a></h3>
-    </div>
-    <div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\4.jpg"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 78% ;"> <a style=" color : black ; font-size : 30px ; text-decoration: underline;"></a></h3>
-    </div>
-    <div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\5.jpg"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 78% ;"> <a style=" color : black ; font-size : 30px ; text-decoration: underline;" ></a></h3>
-    </div><div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\6.jpg"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 78% ;"> <a style=" color : black ; font-size : 30px ; text-decoration: underline;" ></a></h3>
-    </div><div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\7.jpg"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 78% ;"> <a style=" color : black ; font-size : 30px ; text-decoration: underline;" ></a></h3>
-    </div><div>
-    <img class="k " style=" height : 300px ; width : 300px ; opacity : 0.6 " src="images\10.jpg"/> 
-    <h3 style="position: absolute ; top: 50% ; left : 78% ;"> <a style=" color : black ; font-size : 30px ; text-decoration: underline;" ></a></h3>
-    </div>
-    <br> <br>
-</section>
+</div>
 
 
 

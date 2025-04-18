@@ -60,6 +60,7 @@
 	}
 	 ?>
 <div class="container">
+	<br><br><br>
         <fieldset>
 			<legend>Pour toutes information veuillez nous contacter : </legend>
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >

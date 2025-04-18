@@ -26,7 +26,7 @@ $ligne = $reponse->fetch(PDO::FETCH_ASSOC);
 <body class="bd">
 <?php include 'connexion.php' ?> 
 <?php include_once 'templates/navbar2.php' ?>
-
+<br><br><br>
 <?php
         $sql = 'SELECT * FROM reservation ORDER BY arrivée ASC ';
         $reponse = $con->query($sql);

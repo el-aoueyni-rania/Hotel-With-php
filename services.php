@@ -26,7 +26,7 @@ $ligne = $reponse->fetch(PDO::FETCH_ASSOC);
 <body class="bd">
 <?php include 'connexion.php' ?> 
 <?php include_once 'templates/navbar2.php' ?>
-<br><br>
+<br><br><br><br>
 <div class="input-group flex-nowrap">
   <span class="input-group-text" id="addon-wrapping"><i class="fas fa-search"></i></span>
   <input type="text" class="form-control" id="search" placeholder="Search">

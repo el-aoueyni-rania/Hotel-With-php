@@ -65,7 +65,8 @@
 
 <br> <br>
 <div class="signin-form">
-	<div class="container">		
+	<div class="container">
+        <br><br>
 	    <form class="form-signin" method="post" enctype="multipart/form-data">
                 <h2 class="ll">
 					Inscription

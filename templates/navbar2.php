@@ -1,12 +1,21 @@
 <header>
         <div >
-            <nav class="navbar navbar-light navbar-expand-lg transbox" >
+            <nav style="
+      width: 100%;
+      background-color: #ffffffee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      z-index: 10;"class="navbar navbar-light navbar-expand-lg transbox" >
             <img  class="k" style=" width : 50px ; height : 50px  " src="images/logo4.jpg"/><h4 style="padding-left : 5px"  class="ft" > La Cigale Tabarka</h4>
                 <div class="collapse navbar-collapse show" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                     <li class=
-                    "nav-item"><a class=" nav-link active" href="accueil.php"><i class="fas fa-home"></i></a></li>
-                        <li class="nav-item"><a class="nav-link active" href="home.php">ACCUEIL</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="home.php"><i class="fas fa-home"></i></a></li>
                         <li class="nav-item"><a class="nav-link active" href="services.php">SERVICE</a></li>
                         <li class="nav-item"><a class="nav-link active" href="chambre.php">CHAMBRE</a></li>
                         <li class="nav-item"><a class="nav-link active" href="reservation.php">RESERVATION</a></li>

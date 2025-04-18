@@ -24,7 +24,6 @@ $ligne = $reponse->fetch(PDO::FETCH_ASSOC);
 <body class="bd">
 <?php include 'connexion.php' ?> 
 <?php include_once 'templates/navbar2.php' ?>
-
 <?php
         $sql = 'SELECT * FROM gallerie ';
         $reponse = $con->query($sql);
@@ -42,7 +41,7 @@ $ligne = $reponse->fetch(PDO::FETCH_ASSOC);
                 ?>
             </div>
         </div>
-        <header class="hd">La Cigale Tabarka Hotel </header>
+
 <section class="gr1">
     <?php while ($ligne = $reponse->fetch(PDO::FETCH_ASSOC)) { ?>
             <img class="kk im1" src="images/<?= $ligne['images'] ?>"/>  
