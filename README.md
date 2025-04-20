@@ -1,31 +1,37 @@
-# 🏨 Site Web de Réservation d'Hôtel – La Cigale Tabarka
+# 🏨 Hotel Management System – PHP & MySQL
 
-Bienvenue dans le dépôt du site web **La Cigale Tabarka**, une application de réservation d'hôtel développée en **PHP**, avec une interface moderne en **HTML/CSS**.
+This is a hotel booking application developed in PHP, featuring a modern user interface built with HTML/CSS.
+---
+
+## 💡 Features:
+
+- 🔐 User login system
+
+- 🛏️ Display of available rooms
+
+- 📅 Online booking with a reservation form
+
+- 🖼️ Gallery showcasing the location
+
+- 📄 Display of available hotel services
 
 ---
 
-## 💡 Fonctionnalités
+##  Technologies Used:
 
-- 🔐 Système de connexion pour les utilisateurs
-- 🛏️ Affichage des chambres disponibles
-- 📅 Réservation en ligne avec formulaire
-- 🖼️ Galerie des lieux
-- 📄 Affichage des services disponibles
+- PHP (backend)
 
----
+- MySQL (database)
 
-## ⚙️ Technologies utilisées
+- HTML5 & CSS3 (frontend)
 
-- **PHP** (backend)
-- **MySQL** (base de données)
-- **HTML5 & CSS3** (frontend)
-- **WAMP** pour l’exécution locale
+- WAMP for local development and testing
 
 ---
 
-## 📸 Aperçu
+## 📸 Preview
 
-![Aperçu de l'application](./images/screenshot.png)
+![Application Screenshot](./images/screenshot.png)
 
 
 
